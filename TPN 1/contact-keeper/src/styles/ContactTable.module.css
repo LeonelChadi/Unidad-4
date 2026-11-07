@@ -1,0 +1,52 @@
+.tableContainer {
+  flex: 2;
+  overflow-x: auto;
+}
+
+.contactTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contactTable th,
+.contactTable td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.contactTable th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.editButton,
+.deleteButton {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.editButton {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.editButton:hover {
+  background-color: #e0a800;
+}
+.deleteButton:hover {
+  background-color: #c82333;
+}

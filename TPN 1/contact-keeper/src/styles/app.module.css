@@ -1,0 +1,27 @@
+.appContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.mainContent {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
