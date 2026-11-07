@@ -1,0 +1,153 @@
+/* Forzar tema claro globalmente */
+:root {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal más ancho y centrado */
+.contenedor-principal {
+  max-width: 800px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Botón de Alta Superior */
+.btn-alta {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 8px 25px;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-alta:hover {
+  background-color: #e0e0e0;
+}
+
+/* Tabla del prototipo */
+.tabla-paises {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #000;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.tabla-paises th,
+.tabla-paises td {
+  border: 1px solid #666;
+  padding: 12px 15px;
+  text-align: left;
+  color: #000;
+}
+
+.tabla-paises th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+/* Efecto cebra para distinguir mejor las filas */
+.tabla-paises tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+/* Simular los cuadritos redondos de selección */
+.celda-accion {
+  text-align: center;
+  width: 100px;
+}
+
+.btn-radio {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-radio:hover {
+  background: #ccc;
+}
+
+/* --- ESTILOS DE LOS FORMULARIOS (Alta, Baja, Modificar) --- */
+.contenedor-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.caja-formulario {
+  border: 2px solid #000;
+  padding: 40px;
+  width: 500px;
+  background-color: #fff;
+  color: #000;
+}
+
+.caja-formulario legend {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.campo-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.campo-formulario label {
+  font-size: 16px;
+}
+
+.campo-formulario input {
+  padding: 8px;
+  border: 1px solid #000;
+  width: 250px;
+  font-size: 16px;
+}
+
+.texto-confirmacion {
+  text-align: center;
+  margin: 30px 0 50px 0;
+  font-size: 16px;
+}
+
+.botones-formulario {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.botones-formulario button {
+  padding: 8px 25px;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.botones-formulario button:hover {
+  background-color: #e0e0e0;
+}
